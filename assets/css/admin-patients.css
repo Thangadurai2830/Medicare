@@ -1,0 +1,110 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f0fdfa, #ccfbf1);
+  color: #1e293b;
+}
+
+/* Header */
+.admin-patient-header {
+  background-color: #0f766e;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  flex-wrap: wrap;
+}
+
+.admin-patient-heading {
+  font-size: 1.5rem;
+}
+
+.admin-patient-header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.admin-patient-header nav a:hover,
+.admin-patient-header nav .active {
+  text-decoration: underline;
+}
+
+/* Main */
+.admin-patient-main {
+  padding: 2rem;
+}
+
+.admin-patient-container h2 {
+  margin-bottom: 1rem;
+  color: #0f766e;
+}
+
+.admin-patient-search input {
+  width: 100%;
+  max-width: 350px;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Table */
+.admin-patient-table-wrapper {
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.admin-patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.admin-patient-table th,
+.admin-patient-table td {
+  padding: 0.9rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.admin-patient-table th {
+  background-color: #ecfdf5;
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.admin-patient-table td button {
+  padding: 0.4rem 0.7rem;
+  background-color: #0f766e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.admin-patient-table td button:hover {
+  background-color: #0e5e5b;
+}
+
+/* Footer */
+.admin-patient-footer {
+  text-align: center;
+  background-color: #0f766e;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}

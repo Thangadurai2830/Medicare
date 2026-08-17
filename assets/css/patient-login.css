@@ -1,0 +1,130 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #ccfbf1, #e0f2fe);
+  color: #0f172a;
+}
+
+/* Header */
+.pl-header {
+  padding: 1.2rem 0;
+  background-color: #99f6e4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.pl-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pl-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0f766e;
+}
+
+.pl-logo span {
+  color: #0ea5e9;
+}
+
+/* Login Section */
+.pl-login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+}
+
+.pl-login-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.05);
+  max-width: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+.pl-login-title {
+  font-size: 1.8rem;
+  color: #0e7490;
+  margin-bottom: 0.3rem;
+}
+
+.pl-login-sub {
+  font-size: 0.95rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.pl-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.pl-input-group {
+  text-align: left;
+  margin-bottom: 1.2rem;
+}
+
+.pl-input-group label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+  display: block;
+}
+
+.pl-input-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f8fafc;
+}
+
+.pl-submit-btn {
+  background-color: #10b981;
+  color: white;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pl-submit-btn:hover {
+  background-color: #059669;
+}
+
+.pl-login-alt {
+  margin-top: 1.2rem;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.pl-login-alt a {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+/* Footer */
+.pl-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0f766e;
+  color: white;
+}

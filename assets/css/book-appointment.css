@@ -1,0 +1,135 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ecfdf5;
+  color: #1e293b;
+}
+
+/* Header */
+.book-header {
+  background-color: #d1fae5;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.book-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #059669;
+}
+
+.book-logo span {
+  color: #0f766e;
+}
+
+.book-nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #065f46;
+  font-weight: 600;
+}
+
+.book-logout {
+  background-color: #059669;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+}
+
+/* Appointment Section */
+.appointment-area {
+  padding: 60px 20px;
+  background-color: #f0fdf4;
+}
+
+.appointment-container {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.appointment-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #065f46;
+  margin-bottom: 2rem;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #059669;
+}
+
+/* Footer */
+.book-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0f766e;
+  color: white;
+  margin-top: 40px;
+}

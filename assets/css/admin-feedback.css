@@ -1,0 +1,132 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f0fdfa, #e0f7fa);
+  color: #1e293b;
+}
+
+/* Header */
+.admin-fb-header {
+  background-color: #0f766e;
+  padding: 1rem 0;
+}
+
+.admin-fb-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-fb-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.admin-fb-logo span {
+  color: #bbf7d0;
+}
+
+.admin-fb-nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #d1fae5;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.admin-fb-nav a:hover,
+.admin-fb-nav a.active {
+  color: #ffffff;
+}
+
+.admin-fb-logout {
+  background-color: #134e4a;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  color: white;
+}
+
+/* Main Section */
+.admin-fb-main {
+  padding: 2rem 1rem;
+}
+
+.admin-fb-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header Section */
+.admin-fb-header-section h1 {
+  font-size: 1.8rem;
+  color: #0f766e;
+  margin-bottom: 0.4rem;
+}
+
+.admin-fb-header-section p {
+  color: #475569;
+  margin-bottom: 1.8rem;
+}
+
+/* Feedback Cards */
+.admin-fb-feedback-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.admin-fb-card {
+  background: white;
+  border-left: 6px solid #14b8a6;
+  padding: 1.2rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.admin-fb-card:hover {
+  transform: translateY(-5px);
+}
+
+.admin-fb-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  color: #0f766e;
+}
+
+.admin-fb-card span {
+  font-size: 0.9rem;
+  color: #64748b;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+
+.admin-fb-card p {
+  color: #334155;
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+.admin-fb-date {
+  font-size: 0.8rem;
+  color: #64748b;
+  text-align: right;
+}
+
+/* Footer */
+.admin-fb-footer {
+  text-align: center;
+  background-color: #0f766e;
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}

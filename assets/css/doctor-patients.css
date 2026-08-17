@@ -1,0 +1,135 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f0fdfa);
+  color: #1e293b;
+}
+
+/* Header */
+.doc-patients-header {
+  background-color: #0e7490;
+  padding: 1rem 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.doc-patients-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-patients-logo {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.doc-patients-logo span {
+  color: #bbf7d0;
+}
+
+.doc-patients-nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #f0fdfa;
+  font-weight: 500;
+}
+
+.doc-patients-nav a.active,
+.doc-patients-nav a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.doc-patients-logout {
+  background-color: #134e4a;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  color: white;
+}
+
+/* Main */
+.doc-patients-main {
+  padding: 2.5rem 1rem;
+}
+
+.doc-patients-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.doc-patients-title {
+  font-size: 2rem;
+  color: #0ea5e9;
+  margin-bottom: 0.5rem;
+}
+
+.doc-patients-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+/* Search */
+.doc-patients-search {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.doc-patients-search input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.doc-patients-search input:focus {
+  border-color: #0ea5e9;
+  outline: none;
+}
+
+/* Grid */
+.doc-patients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.doc-patients-card {
+  background: white;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doc-patients-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+}
+
+.doc-patients-card h2 {
+  color: #0f766e;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.doc-patients-footer {
+  background-color: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}

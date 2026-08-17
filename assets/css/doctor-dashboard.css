@@ -1,0 +1,143 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f0fdfa);
+  color: #0f172a;
+}
+
+/* Header */
+.doc-dash-header {
+  background-color: #0891b2;
+  padding: 1rem 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.doc-dash-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-dash-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.doc-dash-logo span {
+  color: #bbf7d0;
+}
+
+.doc-dash-nav a {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: #f0fdfa;
+  font-weight: 500;
+}
+
+.doc-dash-nav a.active,
+.doc-dash-nav a:hover {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.doc-dash-logout {
+  background: #134e4a;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+/* Main Dashboard */
+.doc-dash-main {
+  padding: 2.5rem 1rem;
+}
+
+.doc-dash-wrapper {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.doc-dash-heading {
+  font-size: 2rem;
+  color: #0ea5e9;
+  margin-bottom: 0.4rem;
+}
+
+.doc-dash-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+/* Dashboard Cards */
+.doc-dash-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.doc-dash-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doc-dash-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.doc-dash-card h2 {
+  font-size: 2rem;
+  color: #14b8a6;
+}
+
+.doc-dash-card p {
+  margin-top: 0.4rem;
+  color: #475569;
+}
+
+/* Quick Actions */
+.doc-dash-actions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.doc-dash-action-btn {
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.doc-dash-action-btn:hover {
+  background-color: #0284c7;
+}
+
+/* Footer */
+.doc-dash-footer {
+  background-color: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}

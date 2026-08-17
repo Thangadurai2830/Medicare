@@ -1,0 +1,156 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0fdff;
+  color: #0f172a;
+}
+
+/* Header */
+.doc-app-header {
+  background-color: #06b6d4;
+  padding: 1rem 0;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.doc-app-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doc-app-logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.doc-app-logo span {
+  color: #f0fdfa;
+}
+
+.doc-app-nav a {
+  color: #e0f7fa;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.doc-app-nav a:hover,
+.doc-app-nav .active {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.doc-app-logout {
+  background: #164e63;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+}
+
+/* Section */
+.doc-app-section {
+  padding: 3rem 1.5rem;
+}
+
+.doc-app-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.04);
+}
+
+.doc-app-title {
+  color: #0ea5e9;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.doc-app-subtitle {
+  color: #64748b;
+  margin-bottom: 1.5rem;
+}
+
+/* Filter */
+.doc-app-filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.doc-app-filter input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #94a3b8;
+  border-radius: 6px;
+}
+
+.doc-app-btn {
+  padding: 0.5rem 1rem;
+  background-color: #0ea5e9;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.doc-app-btn:hover {
+  background-color: #0284c7;
+}
+
+/* Table */
+.doc-app-table-wrapper {
+  overflow-x: auto;
+}
+
+.doc-app-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.doc-app-table thead {
+  background-color: #e0f2fe;
+}
+
+.doc-app-table th,
+.doc-app-table td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.doc-app-view {
+  background-color: #10b981;
+  border: none;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.doc-app-view:hover {
+  background-color: #059669;
+}
+
+/* Footer */
+.doc-app-footer {
+  background-color: #0f766e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}

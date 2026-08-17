@@ -1,0 +1,154 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0fdfa;
+  color: #0f172a;
+}
+
+/* Header */
+.ma-header {
+  background-color: #a7f3d0;
+  padding: 1.2rem 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.ma-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ma-logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #047857;
+}
+
+.ma-logo span {
+  color: #0ea5e9;
+}
+
+.ma-nav a {
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #065f46;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.ma-nav a.active,
+.ma-nav a:hover {
+  color: #0f766e;
+}
+
+.ma-logout {
+  background-color: #14b8a6;
+  color: white;
+  padding: 0.5rem 1.1rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+/* Section */
+.ma-section {
+  padding: 3rem 1rem;
+}
+
+.ma-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.ma-title {
+  font-size: 2rem;
+  color: #0e7490;
+  margin-bottom: 0.5rem;
+}
+
+.ma-subtitle {
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+/* Table */
+.ma-table-container {
+  overflow-x: auto;
+}
+
+.ma-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  background-color: white;
+}
+
+.ma-table thead {
+  background-color: #ccfbf1;
+}
+
+.ma-table th,
+.ma-table td {
+  padding: 1rem;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.ma-table th {
+  color: #0f766e;
+}
+
+.ma-table tr:nth-child(even) {
+  background-color: #f0fdfa;
+}
+
+.ma-status {
+  padding: 0.4rem 0.8rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.ma-status.confirmed {
+  background-color: #d1fae5;
+  color: #047857;
+}
+
+.ma-status.pending {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.ma-cancel-btn {
+  background-color: #f87171;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.ma-cancel-btn:hover {
+  background-color: #dc2626;
+}
+
+/* Footer */
+.ma-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0f766e;
+  color: white;
+  margin-top: 2rem;
+}

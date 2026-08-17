@@ -1,0 +1,138 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f0fdfa;
+  color: #0f172a;
+}
+
+/* Header */
+.pr-header {
+  background-color: #99f6e4;
+  padding: 1.2rem 0;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.pr-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pr-logo {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #0f766e;
+}
+
+.pr-logo span {
+  color: #0ea5e9;
+}
+
+.pr-nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #065f46;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.pr-nav a.active,
+.pr-nav a:hover {
+  color: #0e7490;
+}
+
+.pr-logout {
+  background-color: #14b8a6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+}
+
+/* Section */
+.pr-section {
+  padding: 3rem 1rem;
+}
+
+.pr-wrapper {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.pr-title {
+  font-size: 2rem;
+  color: #0e7490;
+  margin-bottom: 0.3rem;
+}
+
+.pr-subtitle {
+  font-size: 1rem;
+  color: #64748b;
+  margin-bottom: 2rem;
+}
+
+.pr-form {
+  text-align: left;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.04);
+}
+
+.pr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.pr-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.pr-group input,
+.pr-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #f8fafc;
+  resize: none;
+}
+
+.pr-save-btn {
+  margin-top: 1.5rem;
+  background-color: #0ea5e9;
+  color: white;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pr-save-btn:hover {
+  background-color: #0284c7;
+}
+
+/* Footer */
+.pr-footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #0f766e;
+  color: white;
+  margin-top: 2rem;
+}
